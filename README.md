@@ -2,6 +2,7 @@ openice
 =======
 
 
+```
 nvm use
 npm install
 
@@ -12,6 +13,7 @@ gem install jekyll
 
 grunt --force
 serve ./_site
+```
 
 [![Join the chat at https://gitter.im/jeffplourde/openice](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jeffplourde/openice?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
