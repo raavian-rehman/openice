@@ -50,7 +50,7 @@ module.exports = function(grunt) {
       install: {
         options: {
           targetDir: './lib',
-          cleanTargetDir: true,
+          cleanTargetDir: false,
           layout: 'byComponent'
         }
       }
@@ -81,9 +81,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-bower-task');
   grunt.loadNpmTasks('grunt-jekyll');
+  grunt.loadNpmTasks('grunt-npmcopy')
 
   // Default task(s).
-  grunt.registerTask('serve', ['bower', 'browserify', 'uglify', 'jekyll:serve']);
-  grunt.registerTask('default', ['bower', 'browserify', 'uglify', 'jekyll:dist']);
+  grunt.registerTask('serve', ['bower', 'browserify', 'jekyll:serve']);
+  grunt.registerTask('default', ['bower', 'browserify', 'jekyll:dist']);
 
 };

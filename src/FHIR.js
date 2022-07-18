@@ -393,7 +393,7 @@ $( window ).load(function() {
       ShowSplash();
       PopulatePatientData();
       refreshTimeout = true;
-      setTimeout(function() { refreshTimeout = false }, 3000);
+      setTimeout(function() { refreshTimeout = false }, 3002);
     }
   });
 

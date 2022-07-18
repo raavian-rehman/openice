@@ -210,7 +210,7 @@ function graphStuff (dataUrl, containerID) {
         }
     });  
 }
-graphStuff('{{ site.url }}/assets/blog/serial-v500-wo-slow-data.csv', 'graph-wo-slow-data');
-graphStuff('{{ site.url }}/assets/blog/serial-v500-w-slow-data.csv', 'graph-w-slow-data');
+graphStuff('http://localhost:3002/assets/blog/serial-v500-wo-slow-data.csv', 'graph-wo-slow-data');
+graphStuff('http://localhost:3002/assets/blog/serial-v500-w-slow-data.csv', 'graph-w-slow-data');
 
 </script>

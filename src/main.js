@@ -7,7 +7,7 @@ var DOMAINID = 15;
 
 window.onload = function(e) {
   	// The host to connect to; specifying port because otherwise it will use the port from the window location
-  	var baseURL = 'wss://www.openice.info:443';
+  	var baseURL = 'ws://localhost:3001';
 	var openICE = new OpenICE(baseURL);
 
 	vitalSigns = new VitalSigns(openICE, DOMAINID, [], 'Numeric');

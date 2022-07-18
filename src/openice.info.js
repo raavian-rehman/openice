@@ -106,7 +106,7 @@ window.onload = function(e) {
   setTimeout(function() {$stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);}, 100);
 
   // The host to connect to; specifying port because otherwise it will use the port from the window location
-  var baseURL = "wss://www.openice.info:443";
+  var baseURL = "ws://localhost:3001";
 
   startCam('videoCanvas-evita', 'webcam-evita', baseURL+'/evita');
   startCam('videoCanvas-ivy', 'webcam-ivy', baseURL+'/ivy');

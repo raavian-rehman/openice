@@ -283,9 +283,9 @@ body {
   }
   .splash-screen__background {
     z-index: -10;
-    /*background: url({{ site.url }}/assets/many-screens-editted.jpeg);*/
-    /*background: url({{ site.url }}/assets/waveforms.png);*/
-    background: url({{ site.url }}/assets/icu.jpg);
+    /*background: url(http://localhost:3002/assets/many-screens-editted.jpeg);*/
+    /*background: url(http://localhost:3002/assets/waveforms.png);*/
+    background: url(http://localhost:3002/assets/icu.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -497,7 +497,7 @@ body {
   padding-bottom: 45px;
 }
 .section-community-back {
-  background: url({{ site.url }}/assets/community.jpeg);
+  background: url(http://localhost:3002/assets/community.jpeg);
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;

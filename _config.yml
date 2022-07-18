@@ -10,8 +10,8 @@ description: >
   connectivity to increase patient safety.  OpenICE seeks to provide a framework for
   the inclusion of healthcare devices and systems into the broader Internet of Things
   and Industrial Internet efforts.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your production site
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://localhost:3002" # the base hostname & protocol for your production site
 github_username:  mdpnp
 exclude: ["src", "Gruntfile.js", "package.json", "node_modules", "files", "dds", "bower_components"]
 openice-version: "0.6.3"

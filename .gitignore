@@ -4,6 +4,5 @@ node_modules
 bower_components
 _site/
 _config.local.yml
-lib
 .jekyll-cache
-.idea
+.idea/
